@@ -6,11 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="EcommerceAPI" />
+        <module name="EcommerceToko" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="EcommerceToko" target="11" />
+      <module name="EcommerceAPI" target="11" />
+      <module name="EcommerceTugas" target="19" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="EcommerceAPI" options="--add-exports java.base/sun.net.www.protocol.http=ALL-UNNAMED" />
+    </option>
   </component>
 </project>

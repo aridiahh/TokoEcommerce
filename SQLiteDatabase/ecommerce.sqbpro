@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="C:/SQLiteDatabase/ecommerce.db" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure browser pragmas query" current="1"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="200"/><column_width id="3" width="2999"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><current_table name="4,5:mainusers"/><default_encoding codec=""/><browse_table_settings><table schema="main" name="addresses" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="117"/><column index="2" value="82"/><column index="3" value="204"/><column index="4" value="194"/><column index="5" value="140"/><column index="6" value="216"/><column index="7" value="139"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="order_details" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="132"/><column index="2" value="163"/><column index="3" value="129"/><column index="4" value="149"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="orders" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="132"/><column index="2" value="117"/><column index="3" value="97"/><column index="4" value="112"/><column index="5" value="131"/><column index="6" value="113"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="products" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="163"/><column index="2" value="117"/><column index="3" value="244"/><column index="4" value="300"/><column index="5" value="97"/><column index="6" value="88"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="reviews" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="132"/><column index="2" value="82"/><column index="3" value="288"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="sqlite_sequence" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="110"/><column index="2" value="82"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="users" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="117"/><column index="2" value="163"/><column index="3" value="157"/><column index="4" value="300"/><column index="5" value="222"/><column index="6" value="82"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table></browse_table_settings></tab_browse><tab_sql><sql name="SQL 1">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sqlb_project&gt;&lt;db path=&quot;C:/SQLiteDatabase/ecommerce.db&quot; readonly=&quot;0&quot; foreign_keys=&quot;1&quot; case_sensitive_like=&quot;0&quot; temp_store=&quot;0&quot; wal_autocheckpoint=&quot;1000&quot; synchronous=&quot;2&quot;/&gt;&lt;attached/&gt;&lt;window&gt;&lt;main_tabs open=&quot;structure browser pragmas query&quot; current=&quot;3&quot;/&gt;&lt;/window&gt;&lt;tab_structure&gt;&lt;column_width id=&quot;0&quot; width=&quot;300&quot;/&gt;&lt;column_width id=&quot;1&quot; width=&quot;0&quot;/&gt;&lt;column_width id=&quot;2&quot; width=&quot;125&quot;/&gt;&lt;column_width id=&quot;3&quot; width=&quot;1911&quot;/&gt;&lt;column_width id=&quot;4&quot; width=&quot;0&quot;/&gt;&lt;expanded_item id=&quot;0&quot; parent=&quot;1&quot;/&gt;&lt;expanded_item id=&quot;1&quot; parent=&quot;0&quot;/&gt;&lt;expanded_item id=&quot;2&quot; parent=&quot;0&quot;/&gt;&lt;expanded_item id=&quot;3&quot; parent=&quot;0&quot;/&gt;&lt;expanded_item id=&quot;4&quot; parent=&quot;0&quot;/&gt;&lt;expanded_item id=&quot;1&quot; parent=&quot;1&quot;/&gt;&lt;expanded_item id=&quot;2&quot; parent=&quot;1&quot;/&gt;&lt;expanded_item id=&quot;3&quot; parent=&quot;1&quot;/&gt;&lt;/tab_structure&gt;&lt;tab_browse&gt;&lt;current_table name=&quot;4,6:mainorders&quot;/&gt;&lt;default_encoding codec=&quot;&quot;/&gt;&lt;browse_table_settings&gt;&lt;table schema=&quot;main&quot; name=&quot;addresses&quot; show_row_id=&quot;0&quot; encoding=&quot;&quot; plot_x_axis=&quot;&quot; unlock_view_pk=&quot;_rowid_&quot;&gt;&lt;sort/&gt;&lt;column_widths&gt;&lt;column index=&quot;1&quot; value=&quot;74&quot;/&gt;&lt;column index=&quot;2&quot; value=&quot;52&quot;/&gt;&lt;column index=&quot;3&quot; value=&quot;52&quot;/&gt;&lt;column index=&quot;4&quot; value=&quot;52&quot;/&gt;&lt;column index=&quot;5&quot; value=&quot;52&quot;/&gt;&lt;column index=&quot;6&quot; value=&quot;84&quot;/&gt;&lt;column index=&quot;7&quot; value=&quot;89&quot;/&gt;&lt;/column_widths&gt;&lt;filter_values/&gt;&lt;conditional_formats/&gt;&lt;row_id_formats/&gt;&lt;display_formats/&gt;&lt;hidden_columns/&gt;&lt;plot_y_axes/&gt;&lt;global_filter/&gt;&lt;/table&gt;&lt;table schema=&quot;main&quot; name=&quot;order_details&quot; show_row_id=&quot;0&quot; encoding=&quot;&quot; plot_x_axis=&quot;&quot; unlock_view_pk=&quot;_rowid_&quot;&gt;&lt;sort/&gt;&lt;column_widths&gt;&lt;column index=&quot;1&quot; value=&quot;83&quot;/&gt;&lt;column index=&quot;2&quot; value=&quot;104&quot;/&gt;&lt;column index=&quot;3&quot; value=&quot;82&quot;/&gt;&lt;column index=&quot;4&quot; value=&quot;52&quot;/&gt;&lt;/column_widths&gt;&lt;filter_values/&gt;&lt;conditional_formats/&gt;&lt;row_id_formats/&gt;&lt;display_formats/&gt;&lt;hidden_columns/&gt;&lt;plot_y_axes/&gt;&lt;global_filter/&gt;&lt;/table&gt;&lt;table schema=&quot;main&quot; name=&quot;orders&quot; show_row_id=&quot;0&quot; encoding=&quot;&quot; plot_x_axis=&quot;&quot; unlock_view_pk=&quot;_rowid_&quot;&gt;&lt;sort/&gt;&lt;column_widths&gt;&lt;column index=&quot;1&quot; value=&quot;83&quot;/&gt;&lt;column index=&quot;2&quot; value=&quot;74&quot;/&gt;&lt;column index=&quot;3&quot; value=&quot;52&quot;/&gt;&lt;column index=&quot;4&quot; value=&quot;52&quot;/&gt;&lt;column index=&quot;5&quot; value=&quot;84&quot;/&gt;&lt;column index=&quot;6&quot; value=&quot;72&quot;/&gt;&lt;/column_widths&gt;&lt;filter_values/&gt;&lt;conditional_formats/&gt;&lt;row_id_formats/&gt;&lt;display_formats/&gt;&lt;hidden_columns/&gt;&lt;plot_y_axes/&gt;&lt;global_filter/&gt;&lt;/table&gt;&lt;table schema=&quot;main&quot; name=&quot;users&quot; show_row_id=&quot;0&quot; encoding=&quot;&quot; plot_x_axis=&quot;&quot; unlock_view_pk=&quot;_rowid_&quot;&gt;&lt;sort/&gt;&lt;column_widths&gt;&lt;column index=&quot;1&quot; value=&quot;74&quot;/&gt;&lt;column index=&quot;2&quot; value=&quot;103&quot;/&gt;&lt;column index=&quot;3&quot; value=&quot;99&quot;/&gt;&lt;column index=&quot;4&quot; value=&quot;56&quot;/&gt;&lt;column index=&quot;5&quot; value=&quot;141&quot;/&gt;&lt;column index=&quot;6&quot; value=&quot;52&quot;/&gt;&lt;/column_widths&gt;&lt;filter_values&gt;&lt;column index=&quot;1&quot; value=&quot;101&quot;/&gt;&lt;column index=&quot;2&quot; value=&quot;Rama&quot;/&gt;&lt;column index=&quot;3&quot; value=&quot;Putra&quot;/&gt;&lt;column index=&quot;4&quot; value=&quot;RamaPutra@gmail.com&quot;/&gt;&lt;column index=&quot;5&quot; value=&quot;08167384267&quot;/&gt;&lt;column index=&quot;6&quot; value=&quot;seller&quot;/&gt;&lt;/filter_values&gt;&lt;conditional_formats/&gt;&lt;row_id_formats/&gt;&lt;display_formats/&gt;&lt;hidden_columns/&gt;&lt;plot_y_axes/&gt;&lt;global_filter/&gt;&lt;/table&gt;&lt;/browse_table_settings&gt;&lt;/tab_browse&gt;&lt;tab_sql&gt;&lt;sql name=&quot;SQL 1&quot;&gt;select * from users;
+--tampilkan data pada table
+SELECT * FROM addresses;
+SELECT * FROM orders;
+SELECT * FROM order_details;
+SELECT * FROM products;
+SELECT * FROM reviews;
+SELECT * FROM users;
+
+--menghapus data
+DELETE FROM addresses;
+DELETE FROM orders;
+DELETE FROM order_details;
+DELETE FROM products;
+DELETE FROM reviews;
+DELETE FROM users;
+DELETE FROM users WHERE id_user=1010;
+
+--memperbarui data
+UPDATE users SET first_name = 'Kusuma', last_name = 'Sari', email = 'kusumasari@gmail.com', phone_number = '082145450330', type = 'seller'
+WHERE id_user = 6003;
+
+--merubah data
+ALTER TABLE addresses MODIFY status ENUM('seller', 'buyer');
+
+--isi data
+INSERT INTO addresses(id_user, type, line1, line2, city, province, postcode) VALUES
+    (6001, 'WNI', 'Jalan Melati', 'Gang Kumara', 'Balikpapan', 'Kalimantan Timur', '76101'),
+    (6002, 'WNI', 'Jalan Mawar', 'Gang Terang', 'Jakarta', 'DKI Jakarta', '10002'),
+    (6003, 'WNI', 'Jalan Sudirman', 'Gang Serasi', 'Bandung', 'Jawa Barat', '40003'),
+    (6004, 'WNI', 'Jalan Lestari', 'Gang Bintang', 'Jakarta', 'DKI Jakarta', '10004'),
+    (6005, 'WNI', 'Jalan Merdeka', 'Gang Murni', 'Yogyakarta', 'DI Yogyakarta', '55005'),
+    (6006, 'WNI', 'Jalan Kenangan', 'Gang Dahlia', 'Batam', 'Tanjung Pinang', '29006'),
+    (6007, 'WNI', 'Jalan Maju', 'Gang Gelap', 'Semarang', 'Jawa Tengah', '50007'),
+    (6008, 'WNI', 'Jalan Mekar', 'Gang Nusantara', 'Palembang', 'Sumatera Selatan', '30008'),
+    (6009, 'WNI', 'Jalan Sukses', 'Gang Bulan', 'Bogor', 'Jawa Barat', '16009'),
+    (6010, 'WNI', 'Jalan Bahagia', 'Gang Damai', 'Samarinda', 'Kalimantan Timur', '75010');
+	
+INSERT INTO orders (id_order, id_user, note, total, discount, is_paid) VALUES
+    (2001, 6002, '100001', 152000, 8000, TRUE),
+    (2002, 6001, '100002', 142500, 7500, TRUE),
+    (2003, 6005, '100003', 570000, 30000, TRUE),
+    (2004, 6004, '100004', 171000, 9000, TRUE),
+    (2005, 6003, '100005', 76000, 4000, TRUE),
+    (2006, 6002, '100006', 142500, 7500, TRUE),
+    (2007, 6005, '100007', 114000, 6000, TRUE),
+    (2008, 6001, '100008', 332500, 17500, TRUE),
+    (2009, 6004, '100009', 85500, 4500, TRUE),
+    (2010, 6003, '100010', 95000, 5000, TRUE);
+	
+INSERT INTO order_details (id_order, id_product, quantity, price) VALUES
+    (2001, 4001, 2, (SELECT total FROM orders WHERE id_order = 2001) * 2),
+    (2002, 4002, 2, (SELECT total FROM orders WHERE id_order = 2002) * 2),
+    (2003, 4009, 1, (SELECT total FROM orders WHERE id_order = 2003) * 1),
+    (2004, 4003, 3, (SELECT total FROM orders WHERE id_order = 2004) * 3),
+    (2005, 4006, 1, (SELECT total FROM orders WHERE id_order = 2005) * 1),
+    (2006, 4002, 3, (SELECT total FROM orders WHERE id_order = 2006) * 3),
+    (2007, 4004, 1, (SELECT total FROM orders WHERE id_order = 2007) * 1),
+    (2008, 4005, 1, (SELECT total FROM orders WHERE id_order = 2008) * 1),
+    (2009, 4010, 1, (SELECT total FROM orders WHERE id_order = 2009) * 1),
+    (2010, 4007, 2, (SELECT total FROM orders WHERE id_order = 2010) * 2);
+	
+INSERT INTO products (id_product, id_user, title, description, price, stock) VALUES
+    (4001, 6006, 'Sweter V-Neck', 'Sweter dengan model V-neck dan bahan hangat untuk gaya yang stylish', '160000', 20),
+    (4002, 6006, 'Kemeja Putih Lengan Pendek', 'Kemeja putih dengan lengan pendek dan bahan katun yang nyaman', '150000', 30),
+    (4003, 6007, 'Dress Midi Bunga', 'Dress midi dengan motif bunga yang cantik dan nyaman dipakai', '180000', 25),
+    (4004, 6010, 'Rok Plisket A-line', 'Rok plisket dengan potongan A-line dan tali pinggang elastis', '120000', 15),
+    (4005, 6008, 'Gaun Pesta Elegan', 'Gaun pesta dengan model elegan, detail renda, dan pita di pinggang', '350000', 8),
+    (4006, 6006, 'Tank Top Basic', 'Tank top basic dengan bahan katun lembut dan cocok untuk aktivitas sehari-hari', '80000', 40),
+    (4007, 6006, 'Kaos Oversized', 'Kaos oversize dengan potongan longgar dan desain casual', '100000', 35),
+    (4008, 6007, 'Celana Jogger Pria', 'Celana jogger pria dengan karet pinggang elastis dan detail saku', '150000', 25),
+    (4009, 6009, 'Setelan Jas Pria', 'Setelan jas pria dengan celana panjang dan jaket formal', '600000', 12),
+    (4010, 6009, 'Kaos Polo Pria', 'Kaos polo pria dengan warna elegan dan bahan yang nyaman', '90000', 30);
+	
+INSERT INTO reviews (id_order, star, description) VALUES
+    (2001, 4, 'Bagus'),
+    (2002, 4, 'Bagus'),
+    (2003, 3, 'Cukup'),
+    (2004, 2, 'Kurang'),
+    (2005, 5, 'Memuaskan'),
+    (2006, 5, 'Memuaskan'),
+    (2007, 5, 'Memuaskan'),
+    (2008, 3, 'Cukup'),
+    (2009, 2, 'Kurang'),
+    (2010, 1, 'Mengecewakan');
+
+INSERT INTO users(id_user, first_name, last_name, email, phone_number, type) VALUES
+    (6001, 'Ari', 'Diah', 'aridiah@gmail.com', '081728374757', 'buyer'),
+    (6002, 'Sinta', 'Maheswari', 'sintamaheswari@gmail.com', '081848885728', 'buyer'),
+    (6003, 'Emma', 'Daisy', 'emmadaisy@gmail.com', '087345518957', 'buyer'),
+    (6004, 'Yayak', 'Kara', 'yayakkara@gmail.com', '084562567834', 'buyer'),
+    (6005, 'Sara', 'Wijayanto', 'sarawijayanto@gmail.com', '089345345267', 'buyer'),
+    (6006, 'Candra', 'Wijaya', 'candrawijaya@gmail.com', '081843743775', 'seller'),
+    (6007, 'Laura', 'Maudy', 'maudylaura@gmail.com', '081783748467', 'seller'),
+    (6008, 'Rizky', 'Teguh', 'riskyteguh@gmail.com', '081637663748', 'seller'),
+    (6009, 'Indie', 'Santoso', 'indiesantoso@gmail.com', '081726334627', 'seller'),
+    (6010, 'Irfan', 'Dharma', 'irfandharma@gmail.com', '081736463537', 'seller');
+	</sql><current_tab id="0"/></tab_sql></sqlb_project>
