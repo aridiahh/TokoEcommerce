@@ -350,7 +350,7 @@ public class Data {
         PreparedStatement statement = null;
         int rowsAffected = 0;
         try {
-            String query = "DELETE FROM " + path[1] + " WHERE id=" + path[2];
+            String query = "DELETE FROM " + path[1] + " WHERE id_user=" + path[2];
             String rootPath = System.getProperty("user.dir");
             String url = "jdbc:sqlite:" + rootPath + "/ecommerce.db";
             Connection connection = DriverManager.getConnection(url);
