@@ -10,7 +10,7 @@ import java.net.InetSocketAddress;
 import java.util.concurrent.Executors;
 public class Main {
     public static void main(String[] args) throws IOException {
-        HttpServer httpServer = HttpServer.create(new InetSocketAddress("localhost", 5069), 0);
+        HttpServer httpServer = HttpServer.create(new InetSocketAddress("localhost", 8069), 0);
 
         httpServer.createContext("/", new Server()); // Inisialisasi dengan UserHandler
 
